@@ -20,3 +20,6 @@ $(document).ready(function() {
     });
 });
 
+<button id="scrollTopBtn">Scroll to Top</button>
+
+
