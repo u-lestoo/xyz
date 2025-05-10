@@ -1,0 +1,13 @@
+$(document).ready(function() {
+    $("#animatebtn").click(function() {
+        $(this).animate({
+            width: "130px",
+            height: "30px"
+        }, function() {
+            $(this).css("background", "red");
+            $(this).css("border", "0px");
+            $(this).css("border-radius", "10px");
+            $(this).css("color", "white");
+        });
+    });
+});
